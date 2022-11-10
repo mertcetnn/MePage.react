@@ -21,8 +21,6 @@
 
 ## - React
 
-## - React Boostrap
-
 ## - React Developer Tools
 
 # Questions
