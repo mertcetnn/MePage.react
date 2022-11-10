@@ -1,0 +1,23 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 40px;
+  background: #0a2239;
+}
+.about-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  border-bottom: 3px solid #53a2be;
+  padding-bottom: 5px;
+}
+.about-content {
+  margin-top: 5vh;
+  width: 60%;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}

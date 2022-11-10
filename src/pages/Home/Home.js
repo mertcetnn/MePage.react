@@ -10,20 +10,19 @@ import Contact from "../Contact/Contact";
 const data = {
   projects: [
     {
-      name: "Project Name",
-      img: "https://picsum.photos/200/300",
+      name: "FoodPrint",
+      img: "https://i.ibb.co/Q8rZ6Wc/Foodprint.jpg",
+      url: "https://github.com/mertcetnn/Food-Print",
     },
     {
-      name: "Project Name",
-      img: "https://picsum.photos/200/300",
+      name: "SolarCod",
+      img: "https://i.ibb.co/CMnThNX/Screenshot-at-Jun-13-21-12-54.png",
+      url: "https://github.com/mertcetnn/develop-SolarCOD",
     },
     {
-      name: "Project Name",
-      img: "https://picsum.photos/200/300",
-    },
-    {
-      name: "Project Name",
-      img: "https://picsum.photos/200/300",
+      name: "Weather Dashboard",
+      img: "https://i.ibb.co/StVcKky/demo.jpg",
+      url: "https://github.com/mertcetnn/Weather-Dashboard",
     },
   ],
 };
@@ -37,16 +36,14 @@ function Home() {
             <img src={Image} alt="home-img" />
           </div>
           <h1>
-            Hi I'm a <span className="home-span">Front-End</span> Dev.!
+            Hi I'm a <span className="home-span">New Front-End</span> Dev.!
           </h1>
+          <h1> Let me know if you have suggestions!</h1>
           <h3 className="home-h3">- Mert Cetin</h3>
         </div>
         <div className="home-right-side">
           <div className="home-links-text">
-            <h1>
-              Hey, if you interested for my web page you can go my social
-              accounts
-            </h1>
+            <h1>Why dont you learn about me? </h1>
           </div>
           <div className="home-links-socials">
             <h1>Socials</h1>
@@ -69,10 +66,12 @@ function Home() {
           {data.projects.map((project) => (
             <div className="project-box">
               <div className="project-box-img">
-                <img src="https://picsum.photos/200/300" alt="project-img" />
+                <a href={project.url}>
+                  <img src={project.img} alt="project-img" />
+                </a>
               </div>
               <div className="project-box-text">
-                <h1>Project Name</h1>
+                <h1>{project.name}</h1>
               </div>
             </div>
           ))}

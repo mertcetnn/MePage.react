@@ -1,0 +1,68 @@
+.contact-container {
+  background-color: rgb(19, 19, 19);
+  padding: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-content {
+  width: 60%;
+  display: flex;
+}
+.contact-left-side {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-ls-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: white;
+  border-bottom: 3px solid #53a2be;
+  padding-bottom: 5px;
+  margin-bottom: 45px;
+}
+.contact-ls-content {
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+  margin-top: 10px;
+}
+.contact-ls-content a {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+}
+.contact-ls-content a:hover {
+  color: #53a2be;
+}
+.contact-right-side {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-rs-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: white;
+  border-bottom: 3px solid #53a2be;
+  padding-bottom: 5px;
+}
+.contact-rs-content {
+  margin-top: 4vh;
+  color: white;
+}
+.contact-rs-content-phone span {
+  margin-left: 1vw;
+}
+.contact-rs-content-gmail {
+  margin-top: 2vh;
+}
+.contact-rs-content-gmail span {
+  margin-left: 1vw;
+}
