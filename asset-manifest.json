@@ -1,14 +1,14 @@
 {
-  "main.css": "/MePage.react/static/css/main.7d45b1f9.chunk.css",
-  "main.js": "/MePage.react/static/js/main.911d9038.chunk.js",
-  "main.js.map": "/MePage.react/static/js/main.911d9038.chunk.js.map",
-  "static/js/1.47894be2.chunk.js": "/MePage.react/static/js/1.47894be2.chunk.js",
-  "static/js/1.47894be2.chunk.js.map": "/MePage.react/static/js/1.47894be2.chunk.js.map",
-  "runtime~main.js": "/MePage.react/static/js/runtime~main.9d453357.js",
-  "runtime~main.js.map": "/MePage.react/static/js/runtime~main.9d453357.js.map",
-  "static/media/me.jpg": "/MePage.react/static/media/me.d5b9983b.jpg",
-  "static/css/main.7d45b1f9.chunk.css.map": "/MePage.react/static/css/main.7d45b1f9.chunk.css.map",
-  "index.html": "/MePage.react/index.html",
-  "precache-manifest.6f9af251a840be00102937020e8b2d0f.js": "/MePage.react/precache-manifest.6f9af251a840be00102937020e8b2d0f.js",
-  "service-worker.js": "/MePage.react/service-worker.js"
+  "files": {
+    "main.css": "/MePage.react/static/css/main.e178d23d.css",
+    "main.js": "/MePage.react/static/js/main.fbed952d.js",
+    "static/media/me.jpg": "/MePage.react/static/media/me.5c1ef10588febdc40a3c.jpg",
+    "index.html": "/MePage.react/index.html",
+    "main.e178d23d.css.map": "/MePage.react/static/css/main.e178d23d.css.map",
+    "main.fbed952d.js.map": "/MePage.react/static/js/main.fbed952d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e178d23d.css",
+    "static/js/main.fbed952d.js"
+  ]
 }
